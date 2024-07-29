@@ -28,7 +28,7 @@ app.get("/", async (req, res) => {
 app.post("/", async (req, res) => {
   // Request parameters
   const params = req.body;
-  console.log(params);
+  // console.log(params);
 
   // Filter API endpoint
   let apiUrl = `https://bored-api.appbrewery.com/filter?type=${req.body.type}&participants=${req.body.participants}`;
