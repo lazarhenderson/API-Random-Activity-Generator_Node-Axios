@@ -28,7 +28,7 @@ app.get("/", async (req, res) => {
 app.post("/", async (req, res) => {
   // Request parameters
   const params = req.body;
-  // console.log(params);
+  console.log(params);
 
   // Filter API endpoint
   let apiUrl = `https://bored-api.appbrewery.com/filter?type=${req.body.type}&participants=${req.body.participants}`;
@@ -59,6 +59,7 @@ app.post("/", async (req, res) => {
   // sure you're passing both the type and participants queries.
   // Render the index.ejs file with a single *random* activity that comes back
   // from the API request.
+
   // Step 3: If you get a 404 error (resource not found) from the API request.
   // Pass an error to the index.ejs to tell the user:
   // "No activities that match your criteria."
