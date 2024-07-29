@@ -2,9 +2,11 @@ Making API requests from a local server using Node and Axios. The project has a 
 
 Technology used in project:
 
-1. EJS & CSS is used for the frontend
-2. Express is used to create and manage the web server
-3. Axios is used to connect to the API
+1. Express: Framework for creating the web server and defining routes.
+2. Body-Parser: Middleware to parse URL-encoded request bodies.
+3. Axios: HTTP client for making API requests.
+4. EJS & CSS: Templating engine for rendering views.
+5. Node.js: JavaScript runtime for executing server-side code.
 
 How to run (ensure Node is installed on PC):
 
